@@ -145,6 +145,7 @@
             result = Number(document.getElementById("display").textContent);
             document.getElementById("display").innerHTML = "0";
             document.getElementById("display").innerHTML = `${result}`;
+            firstTime = false;
         }
         else {
 
@@ -165,7 +166,6 @@
             mtd = e.target.value;
             }
         }
-        firstTime = false;
         dp = true;
     }
     function isEqual() {
